@@ -1,31 +1,39 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Dash0 Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#7256e2",
+    "light": "#ac99f9",
+    "dark": "#7256e2",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#7256e2",
+      "to": "#7256e2"
+    },
+    "background": {
+      "light": "#ffffff",
+      "dark": "#101010"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@dash0.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Open Dash0",
+    "url": "https://app.dash0.com"
   },
   "tabs": [
+    {
+      "name": "OTelBin",
+      "url": "otelbin"
+    },
     {
       "name": "API Reference",
       "url": "api-reference"
@@ -35,17 +43,17 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://www.dash0.com/docs"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Hub",
+      "icon": "cubes",
+      "url": "https://www.dash0.com/hub"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://www.dash0.com/blog"
     }
   ],
   "navigation": [
@@ -69,23 +77,22 @@
       ]
     },
     {
+      "group": "OTelBin",
+      "pages": [
+        "otelbin/index"
+      ]
+    },
+    {
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
       ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/dash0hq",
+    "github": "https://github.com/dash0hq",
+    "linkedin": "https://www.linkedin.com/company/dash0hq",
+    "youtube": "https://www.youtube.com/@dash0hq"
   }
 }
