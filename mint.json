@@ -31,6 +31,10 @@
   },
   "tabs": [
     {
+      "name": "Dash0",
+      "url": "dash0"
+    },
+    {
       "name": "OTelBin",
       "url": "otelbin"
     },
@@ -74,6 +78,26 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets"
+      ]
+    },
+    {
+      "group": "",
+      "pages": [
+        "dash0/introduction"
+      ]
+    },
+    {
+      "group": "",
+      "pages": [
+        {
+          "group": "Get started",
+          "pages": [
+            "dash0/get-started",
+            "dash0/sign-in",
+            "dash0/sending-data",
+            "dash0/using-dash0"
+          ]
+        }
       ]
     },
     {
